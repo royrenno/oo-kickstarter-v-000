@@ -1,5 +1,5 @@
 class Project
-  attr_reader backed_projects
+  attr_accessor :backed_projects
   initialize name
   @name = name
 end
