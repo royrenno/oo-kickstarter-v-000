@@ -1,3 +1,4 @@
 class Backer
 attr_reader
-initialize 
+initialize
+end
