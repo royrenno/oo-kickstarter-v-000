@@ -7,5 +7,5 @@ class Backer
   def back_project(project)
     @back_project << project
     profject.add_backer(self)unless project.backer.include?(self)
-  end 
+  end
 end
