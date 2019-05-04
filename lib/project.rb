@@ -1,5 +1,5 @@
 class Project
   attr_accessor :backed_projects
-  initialize name
-  @name = name
+  initialize (title)
+  @title = title
 end
